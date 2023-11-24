@@ -1,0 +1,22 @@
+{
+	"name": "companion-module-gdsys-muxkvmswitch",
+	"version": "1.0.0",
+	"main": "main.js",
+	"scripts": {
+		"format": "prettier -w ."
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-gdsys-muxkvmswitch.git"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.5.1",
+		"snmp-native": "^1.2.0"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.4.1",
+		"@types/snmp-native": "^1.2.4"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json"
+}
