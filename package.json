@@ -11,11 +11,11 @@
 		"url": "git+https://github.com/bitfocus/companion-module-gdsys-muxkvmswitch.git"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.5.1",
+		"@companion-module/base": "~1.15.1",
 		"snmp-native": "^1.2.0"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^2.8.0",
+		"@companion-module/tools": "^2.9.1",
 		"@types/snmp-native": "^1.2.4"
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json"
